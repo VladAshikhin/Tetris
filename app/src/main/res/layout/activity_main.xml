@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainContentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.om.tetris.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/buttonRight"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Right"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonLeft"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="Left"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonDown"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="190dp"
+        android:layout_marginRight="190dp"
+        android:layout_marginBottom="20dp"
+        android:text="Down"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonRotate"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="280dp"
+        android:layout_marginRight="280dp"
+        android:layout_marginBottom="20dp"
+        android:text="Rotate"
+        android:textSize="14sp" />
+
+<!--    <FrameLayout
+        android:layout_width="230dp"
+        android:layout_height="485dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="30px"
+        android:background="#E7E7E9">
+
+    </FrameLayout>-->
+
+    <Button
+        android:id="@+id/buttonStartPause"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="170dp"
+        android:text="Start"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonForceDown"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="110dp"
+        android:text="Force"
+        android:textSize="16sp" />
+
+
+
+</RelativeLayout>

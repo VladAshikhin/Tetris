@@ -1,0 +1,28 @@
+1. Make blocks rotate
+   ! Rotation should have special realization OK
+
+2. Make block stop when meet other block on bottom
+
+ADD FUNCTIONALITY:
+1. isHorizontal || isVertical
+Why? NO
+When try to rotate define the right direction.
+2. Position #1, Position #2, Position #3, Position #4
+Why? YES
+When try to rotate define the right direction, as:
+
+var numberOfPossiblePositions
+
+fun setNextPosition(block) {
+
+    if (block.getPosition == position.FIRST) {
+        block.setPosition(position.SECOND)
+    } else if (block.getPosition == position.SECOND) {
+        block.setPosition(position.THIRD)
+    } else if (block.getPosition == position.THIRD) {
+        block.setPosition(position.FOURTH)
+    } else if (block.getPosition == position.FOURTH) {
+        block.setPosition(position.FIRST)
+    }
+
+}
